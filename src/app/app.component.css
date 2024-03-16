@@ -1,0 +1,42 @@
+.navbar
+{
+    background-color: rgb(16, 1, 1);
+    padding: 10px;
+    border-radius: 5px;
+}
+.navbar a
+{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+}
+.navbar-toggler-icon
+{
+    color: #fff;
+}
+.navbar a:hover
+{
+    color: antiquewhite;
+}
+h3
+{
+    color: #fff;
+    margin: 10px 10px;
+    font-weight: bold;
+}
+#changingText {
+    font-size: 24px;
+}
+
+/* Additional CSS for changing color */
+.changing-color {
+    animation: changeColor 3s infinite; /* Change color every 3 seconds */
+}
+
+@keyframes changeColor {
+    0% { color: red; } /* Starting color */
+    33% { color: green; } /* Color change after 33% of animation duration */
+    66% { color: blue; } /* Color change after 66% of animation duration */
+    100% { color: red; } /* Back to starting color */
+}

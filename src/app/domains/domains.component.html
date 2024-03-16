@@ -1,0 +1,13 @@
+<!-- <p>domains works!</p> -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3" *ngFor="let sambath of topDomainDisplay">
+            <div class="box">
+                <img src="{{sambath.urlToImage}}" alt="" width="100%">
+                <p>{{sambath.title}}</p>
+                <a href="{{sambath.url}}" target="_blank" class="btn btn-dark btn-sm">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
